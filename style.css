@@ -3,11 +3,70 @@
 body
 {
     margin: 0px;
+    font-family : 'Roboto', sans-serif ;
  }
 header
 {  
     
     text-align: center;
     padding: 5px;
+    position: relative;
     box-shadow: 0 0 3px rgb(0 0 0 / 25%);
+}
+
+main .ville
+{
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+main .ville i
+{
+    font-size: x-large;
+}
+.CHOIX
+{
+    text-align: center;
+    
+}
+.CHOIX h2
+{
+    margin-top: 30px;
+}
+.CHOIX p
+{
+    font-size: large;
+}
+.CHOIX button
+{
+    
+    font-weight: 500;
+    font-size:medium;
+    padding: 10px;
+    
+    border-radius: 25px;
+  
+}
+.fonctionnement ol
+{
+    display: flex;
+}
+.fonctionnement li
+{
+    background-color: #f6f6f6;
+    padding: 20px 20px 20px 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.fonctionnement li i
+{
+    margin-right: 5px;
+}
+.menus
+{
+    background-color: #f6f6f6;
 }
